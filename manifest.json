@@ -1,0 +1,14 @@
+{
+    "name": "Send link to Dune Player",
+    "version": "1.0.0.0",
+    "manifest_version": 2,
+    "icons": {
+        "16": "dune-little.png",
+        "128": "dune-big.png"
+    },
+    "background": {
+        "scripts": ["dune.js"]
+    },
+    "options_page": "options.html",
+    "permissions": ["contextMenus","storage"]
+}
